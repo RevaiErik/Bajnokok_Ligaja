@@ -43,7 +43,7 @@ namespace Bajnokok_Ligája
                 }
                 else
                 {
-                    Csapatok_bindingSource.RemoveFilter();
+                    Csapatok_bindingSource.Filter = "csapat_id > 0";
                 }
             }
         }
